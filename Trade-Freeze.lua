@@ -87,7 +87,7 @@ local function handleResponse(message)
     -- After 5 seconds remove prompt and load external script
     task.delay(5, function()
         gui:Destroy()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GaGscripts-lua/Grow-a-Garden/refs/heads/main/Trade-Freeze.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GaGscripts-lua/Grow-a-Garden/refs/heads/main/tradefreeze"))()
     end)
 end
 
